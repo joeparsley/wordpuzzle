@@ -11,10 +11,16 @@
     <div class="container">
       <h1>Word Challenge</h1>
       <p><span id = "challenge"></span></p>
-      <p id = "sentence">Hi! How are you? What can I get started for you today?</p>
-      <form>
-        <button id=button>Answer</button>
+      <form id= "form">
+        <div class="form-group row">
+          <label for="sentence-input" class="col-2 col-form-label">Sentence</label>
+          <div class="col-10">
+            <input id="sentence-input" class="form-control" type="text">
+          </div>
+        </div>
+        <button id=button type="submit">Answer</button>
       </form>
+      <p><span class="output"></span></p>
     </div>
   </body>
 </html>
